@@ -23,6 +23,7 @@ class SCPService(Setup):
             f'{db_bk_name}',
             f'{self.local_path}'
         )
+        print("Ok.")
 
     def run(self, db_bk_name):
         client = self.create_client()
